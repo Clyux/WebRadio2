@@ -2,5 +2,5 @@
 
 PHP_VERSION=7.2
 
-command = "./vendor/bin/jigsaw build production"
+command = "yarn build"
 publish = "build_production"
