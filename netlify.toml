@@ -3,3 +3,4 @@ PHP_VERSION=7.2
 
 command = "php ./scraper.php && yarn build"
 publish = "_public"
+"ext-intl" : "*"
