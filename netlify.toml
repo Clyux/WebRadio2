@@ -1,6 +1,5 @@
 [build]
-
 PHP_VERSION=7.2
 
-command = "yarn build"
-publish = "build_production"
+command = "php ./scraper.php && yarn build"
+publish = "_public"
