@@ -1,6 +1,6 @@
 [build]
 PHP_VERSION=7.2
 
-command = "php ./scraper.php && yarn build"
+command = "php ./scraper.php && npm install ext-intl && yarn build"
 publish = "_public"
 ext-intl = "*"
